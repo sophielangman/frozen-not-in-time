@@ -24,7 +24,7 @@ main {
   animation: cherry-drop 500ms forwards linear 2000ms;
 }
 
-.vanilla {
+.vanilla-fudge {
   bottom: 100%;
   right: 35px;
   transform: scale(.7);
@@ -32,7 +32,7 @@ main {
   animation: fudge-drop 500ms forwards linear 1500ms;
 }
 
-.choco-chip {
+.chocolate-chip {
   bottom: 100%;
   right: 30px;
   transform: scale(.7);
@@ -114,7 +114,7 @@ p, a {
 
 }
 
-@keyframes fudge-drop {
+@keyframes vanilla-fudge drop {
 
   0% {
     opacity: 0;
@@ -127,7 +127,7 @@ p, a {
 
 }
 
-@keyframes choco-chip-drop {
+@keyframes chocolate-chip-drop {
 
   0% {
     opacity: 0;
@@ -140,7 +140,7 @@ p, a {
 
 }
 
-@keyframes mint-chip--drop {
+@keyframes mint-chip-drop {
 
   0% {
     opacity: 0;
