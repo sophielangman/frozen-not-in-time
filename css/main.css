@@ -1,0 +1,17 @@
+html {
+  font-family: "Fredoka One", sans-serif;
+}
+
+main {
+  background: repeating-linear-gradient(-30deg, #b3fbff, #c9fcff 20px, #d4fdff 20px);
+  min-height: 500px;
+  max-height: 500px;
+}
+
+.btn-ghost {
+  border-color: #990073;
+}
+
+.btn-ghost:hover {
+  border-color: #990073;
+}
