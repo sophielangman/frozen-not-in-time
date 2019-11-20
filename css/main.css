@@ -15,3 +15,41 @@ main {
 .btn-ghost:hover {
   border-color: #990073;
 }
+
+.cherry {
+  bottom: 100%;
+  right: 35px;
+  transform: scale(.7);
+  z-index: 3;
+  animation: cherry-drop 500ms forwards linear 2000ms;
+}
+
+.vanilla {
+  bottom: 100%;
+  right: 35px;
+  transform: scale(.7);
+  z-index: 2;
+  animation: fudge-drop 500ms forwards linear 1500ms;
+}
+
+.chocolate {
+  bottom: 100%;
+  right: 30px;
+  transform: scale(.7);
+  z-index: 1;
+  animation: chocolate-drop 500ms forwards linear 1000ms;
+}
+
+.mint {
+  bottom: 100%;
+  right: 35px;
+  transform: scale(.7);
+  animation: mint-drop 500ms forwards linear 500ms;
+}
+
+.cone {
+  bottom: 100%;
+  right: 35px;
+  transform: scale(.7);
+  animation: cone-drop 500ms forwards linear;
+}
