@@ -32,7 +32,7 @@ main {
   animation: fudge-drop 500ms forwards linear 1500ms;
 }
 
-.chocolate {
+.choco-chip {
   bottom: 100%;
   right: 30px;
   transform: scale(.7);
@@ -40,7 +40,7 @@ main {
   animation: chocolate-drop 500ms forwards linear 1000ms;
 }
 
-.mint {
+.mint-chip {
   bottom: 100%;
   right: 35px;
   transform: scale(.7);
@@ -52,4 +52,34 @@ main {
   right: 35px;
   transform: scale(.7);
   animation: cone-drop 500ms forwards linear;
+}
+
+.title {
+  color: #990073;
+  transform: rotate(-8deg);
+  margin-left: -15px;
+}
+
+p {
+  max-width: 19em;
+  transform: rotate(-5deg);
+}
+
+p, a {
+  text-decoration: none;
+  color: #c09;
+}
+
+.title, p {
+  text-shadow: 2px 2px 2px rgba(0, 0, 0, .3);
+}
+
+.text-box {
+  transform-origin: left center;
+  padding-left: 6%;
+  animation: fading 3500ms linear;
+}
+
+.image-frame {
+  min-height: 480px;
 }
